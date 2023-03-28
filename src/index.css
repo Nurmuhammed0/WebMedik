@@ -1,13 +1,196 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbars1 */
+.navdiv{
+  font-size: 30px ;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  
+}
+.navtext{
+  color: #fff !important;
+}
+.brand{
+  font-size: 30px !important;
+}
+.icon1{
+  width: 150px ;
+  margin: -25px 0 -15px;
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Carusel1 */
+.carusel1{
+  width: 100%;
+  height: 80vh;
+}
+.carsdiv1{
+  width: 100%;
+  position: absolute;
+  bottom: 60%;
+}
+
+/*/Cards */
+/* .cardiv1{
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  display: flex;
+ justify-content: center;
+}
+.divcard1{
+  width: 20% !important;
+  opacity: 0.6;
+  background-color: green !important;
+  color: #fff;
+  transition-duration: 2s;
+}
+.divcard1:hover{
+  transition: 2s;
+  background-color: red !important;
+} */
+
+/* .ss{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  background-color: #000;
+} */
+
+/* Slider */
+.slider-card{
+  text-decoration: none;
+}
+.sliders1{
+  width: 90%;
+  margin: auto;
+  margin-top: 140px;
+  margin-bottom: 25px;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slider2{
+  /* height: 250px; */
+  border:1px solid #fff;
+  background-color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  color: #fff;
+  transition-duration: 1s;
+}
+.slider2:hover{
+  width: 101%;
+  background-color: blue;
+  color: yellow;
+  transition: 1.5s;
+}
+.slid-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider4{
+  background-color: #000;
+}
+.sliderh2{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* LargeCard */
+.largecard{
+  width: 80%;
+  border-radius: 20px !important;
+  margin-top: 140px;
+  margin-bottom: 1%;
+}
+.largdiv{
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .largdiv{
+    display: block;
+  }
+}
+.title2{
+  font-size: 30px !important;
+  font-weight: bold !important;
+  font-family:'A97_Oktom_Aksent', sans-serif;
+}
+.text2{
+  font-size: 20px;
+}
+
+/* Clinic */
+.clinic-div{
+  margin:0px 20px 0px 20px;
+}
+.clinic-card{
+  /* width: 200px; */
+  height: 300px !important;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px !important;
+}
+.clinic-img{
+  height: 200px;
+  align-self: center;
+}
+.clinic-img:hover{
+  padding: 20px !important;
+  /* border-radius: 20px !important; */
+  transition: 1s;
+}
+
+
+/* Futter */
+.futter1{
+  background-color: #9155A7;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.futter1 button{
+  margin-left: 20px;
+  padding: 0 20px;
+  background-color: #7C5193;
+
+}
+.futter2{
+  display: flex;
+  justify-content: center;
+}
+.futter-div{
+  width: 25%;
+  height: 400px !important;
+  text-align: center;
+  border: 1px solid #fff !important;
+  transition-duration: 1s;
+}
+.futter-div:hover{
+  background-color: green;
+  transition: 1s;
+  color: #fff;
+}
+.futter-icon{
+  width: 40%;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  background-color: green;
+  color: #fff;
+  border-radius: 100%;
+  margin: 20px 0 0 30%;
 }
